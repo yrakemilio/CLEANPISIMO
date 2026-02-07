@@ -1,4 +1,4 @@
-const scriptURL = 'https://script.google.com/macros/s/AKfycbwqONcN5soh2nhVXedQVKPB4dm6Qxla5xn4fkt9eD1UxIbznC2yb_axiwVXvOBJJ4Rs/exec';
+const scriptURL = 'https://script.google.com/macros/s/AKfycbw4ORn6KqCIzOF-mzKbvAEXEzswp-U3zJ80etus515NQ5F6UblYsQ_3PHIhJtqewIKD/exec';
 const form = document.getElementById('form-encuesta');
 const btn = document.getElementById('btn-enviar');
 
