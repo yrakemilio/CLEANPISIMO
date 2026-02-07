@@ -10,20 +10,21 @@
 
     <div class="contenedor-encuesta">
         <div class="header">
-            <img src="imagenes/logo.png" alt="CLEANPISIMO" class="logo">
+            <img src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSdNpcxTFyeuSqf9WEem3Vh5REae5JqHhlyNSew__J5hnVTVe1Xi8uxi_MAiN3l-YneFjgnFTOzCNB5/pub?output=csv" alt="CLEANPISIMO" class="logo">
             <h1>Encuesta de Servicio</h1>
-            <p>Ayúdanos a mejorar tu experiencia</p>
+            <p>Tu opinión es lo más importante para nosotros</p>
         </div>
 
         <form id="form-encuesta">
+            
             <div class="campo">
                 <label>ID del Servicio:</label>
-                <input type="text" name="id_servicio" placeholder="Ej: CP-100" required>
+                <input type="text" name="id_servicio" placeholder="Ej: CP-123" required>
             </div>
 
             <div class="campo">
                 <label>Nombre del Cliente:</label>
-                <input type="text" name="cliente" placeholder="Tu nombre" required>
+                <input type="text" name="cliente" placeholder="Escribe tu nombre" required>
             </div>
 
             <div class="campo">
@@ -33,24 +34,24 @@
                     <option value="Salas">Lavado de Salas</option>
                     <option value="Colchones">Lavado de Colchones</option>
                     <option value="Vestiduras">Vestiduras de Auto</option>
-                    <option value="Tapetes">Tapetes y Alfombras</option>
+                    <option value="Tapetes">Tapetes / Alfombras</option>
                 </select>
             </div>
 
             <div class="campo">
-                <label>¿Qué tan satisfecho estás con la limpieza?</label>
+                <label>¿Cómo calificarías nuestro servicio?</label>
                 <select name="calificacion" required>
-                    <option value="5">⭐⭐⭐⭐⭐ Excelente</option>
-                    <option value="4">⭐⭐⭐⭐ Muy Bueno</option>
-                    <option value="3">⭐⭐⭐ Bueno</option>
-                    <option value="2">⭐⭐ Regular</option>
-                    <option value="1">⭐ Malo</option>
+                    <option value="5">Excelente ⭐⭐⭐⭐⭐</option>
+                    <option value="4">Muy Bueno ⭐⭐⭐⭐</option>
+                    <option value="3">Bueno ⭐⭐⭐</option>
+                    <option value="2">Regular ⭐⭐</option>
+                    <option value="1">Malo ⭐</option>
                 </select>
             </div>
 
             <div class="campo">
                 <label>Comentarios adicionales:</label>
-                <textarea name="comentarios" rows="4" placeholder="¿Algo que quieras decirnos?"></textarea>
+                <textarea name="comentarios" rows="4" placeholder="¿Cómo podemos mejorar?"></textarea>
             </div>
 
             <button type="submit" id="btn-enviar">Enviar Encuesta</button>
